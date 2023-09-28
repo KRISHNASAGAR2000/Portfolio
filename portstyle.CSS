@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+nav{
+    position: fixed;
+    right: 10px;
+
+}
+*{
+    margin: 0px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px 15px;
+    color: white;
+    
+}
+section{
+    background-image: url(pexels-cátia-matos-1072179.jpg);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-text h2{
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+.section-text h1{
+    font-size: 80px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    }
+    .primary-text{
+        font-size: 40px;
+        font-family: 'Roboto Slab', serif;
+        color: aliceblue;
+        
+    }
+    .about{
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(black,rgb(30, 72, 30),black,rgb(30, 67, 30));
+        /* background-image: linear-gradient(darkgreen,black); */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about img{
+        position: relative;
+        bottom: 30px;
+    }
+    .about p{
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: aliceblue;
+        width: 900px;
+        font-weight: 100px;
+        text-align: center;
+        text-align: justify;
+        
+    }
+    .section-text svg{
+        position: relative;
+        left: 330px;
+        top: 100px;
+        
+        animation: pop 2s ease-in-out infinite alternate;
+    }
+    @keyframes pop {
+        from{
+            transform: translateY(0);
+        }
+        to{
+            transform: translateY(10px);
+            
+        }
+        
+    }
+     .project-container{
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgb(20, 11, 11),rgb(11, 94, 69),black);
+        /* display: flex; */
+        /* align-items: center; */
+     }
+    .project-container1{
+        height: 400px;
+        width: 100%;
+        /* background-color:orange; */
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px;
+        justify-content: space-evenly;
+        
+
+        
+    }
+    .project-container1 img{
+        height: 300px;
+        width: 400px;
+        
+    }
+    .project-container1 h3{
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: whitesmoke;
+        position: relative;
+        bottom: 30px;
+        text-align: justify;
+    }
+    .button{
+        margin-left:700px;
+        bottom: 200px;
+        position: relative;
+    }
+   .button2{
+    margin-left:900px;
+    bottom: 235px;
+    position: relative;
+   }
+  .project-container2{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+    
+  }
+  .project-container2 img{
+    height: 300px;
+    width: 390px;
+    position: relative;
+    bottom: 130px;
+  }
+  .project-container2 h3{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    position: relative;
+    text-align: justify;
+    bottom: 60px;
+  }
+
+  .button3{
+    position: absolute;
+    left: 695px;
+    top: 2455px;
+    width: 300px;
+
+  }
+  .button4{
+    position: absolute;
+    left: 900px;
+    top: 2456px;
+    
+  }
+  .contact{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgb(94, 90, 90),rgb(6, 40, 6));
+  }
+  .contact2{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+ .con:hover{
+    animation: con 3s ease-in infinite alternate;
+    background-color: yellow;
+    border-radius: 50%;
+
+ }
+ @keyframes con {
+    to{
+        transform: scale(0);
+    }
+    from{
+        transform: scale(1);
+    }
+ }
+.h:hover{
+    background-color: lightblue;
+    border-radius: 10%;
+    transform: scale(0.5);
+}
